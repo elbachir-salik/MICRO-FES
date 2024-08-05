@@ -6,7 +6,7 @@ export default () => {
     return(
         <div>
             <div>Count = {count()}</div>
-            <button onClick={() => setCount(count()+ 1)}>Add One</button>
+            <button onClick={() => setCount(count()+ 2)}>Add Two</button>
         </div>
     )
 }
